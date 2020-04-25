@@ -1,0 +1,24 @@
+﻿@{
+    Layout = "~/Views/Shared/_Page_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <div id="logOut_message">
+        Zostałeś wylogowany.
+    </div>
+    <div id="logIn_again">
+        <button type="submit" id="logIn_again_button" class="login-form-btn">
+            @Html.ActionLink("Zaloguj ponownie", "index", "Log", new { Style = "color:white" })
+        </button>
+    </div>
+
+</body>
+</html>
