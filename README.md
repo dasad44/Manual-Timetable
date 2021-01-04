@@ -1,4 +1,9 @@
 # SoftEngineering - Timetable App
+
+## HackNPlan
+
+https://app.hacknplan.com/p/105365/kanban?categoryId=0&boardId=269161
+
 >ASP.NET MVC C#
 
 >.NET Framework 4.7.2
